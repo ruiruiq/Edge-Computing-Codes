@@ -43,6 +43,7 @@ E = zeros(T, 3);          % energy consumption for mobile execution, MEC server 
 
 %% simulation begin
 t = 1;
+T = 1;
 while t <= T
     disp(['===> Time slot #', num2str(t), ' <==='])
     
